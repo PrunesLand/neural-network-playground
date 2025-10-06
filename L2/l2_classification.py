@@ -34,7 +34,7 @@ plt.scatter(X[:, 0], X[:, 1], c=y, cmap='viridis', edgecolors='k')
 plt.title("Generated Synthetic Classification Data")
 plt.xlabel("Feature 1")
 plt.ylabel("Feature 2")
-plt.savefig("L2/l2_synthetic_data.png")
+plt.savefig("l2_synthetic_data.png")
 plt.show()
 
 
@@ -103,7 +103,7 @@ ax.set_title("Classifier Decision Boundary and Test Data")
 ax.set_xlabel("Feature 1")
 ax.set_ylabel("Feature 2")
 ax.legend()
-plt.savefig("L2/l2_decision_boundary.png")
+plt.savefig("l2_decision_boundary.png")
 plt.show()
 
 

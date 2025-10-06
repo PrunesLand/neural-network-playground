@@ -169,7 +169,7 @@ ax.scatter(X_test_m[:, 0], X_test_m[:, 1], c=y_test_m, s=20, edgecolor='k', cmap
 ax.set_title("Decision Boundary for Custom Classifier (Multi-Class)")
 ax.set_xlabel("Feature 1")
 ax.set_ylabel("Feature 2")
-plt.savefig("L3/l3_multiclass_boundary.png")
+plt.savefig("l3_multiclass_boundary.png")
 plt.show()
 
 print("\n--- Lab L3 Complete ---")

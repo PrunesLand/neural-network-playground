@@ -1,60 +1,67 @@
-# Neural Network Laboratories Simulation
+# Neural Network Playground
 
-This project is a simulation of a series of neural network laboratories, designed to provide a hands-on-keyboard experience with fundamental concepts and technologies in machine learning. Each lab is self-contained in its own directory and includes a Python script with detailed explanations and comments.
+This project provides a hands-on introduction to fundamental machine learning concepts through a series of self-contained labs. Each lab explores a different topic and includes a heavily commented Python script for you to learn from and experiment with.
 
-## Project Structure
+## Labs
 
-The project is organized into the following directories, each corresponding to a specific lab:
+The project is divided into the following labs, each in its own directory:
 
-- **L0/**: Introduction to NumPy and Matplotlib
-- **L1/**: Data Visualization and Handling
-- **L2/**: Fundamentals of Classification
-- **L3/**: Building a Custom Classifier
-- **L4/**: Unsupervised Learning - Clustering
-- **L5/**: Data Preprocessing Techniques
-- **L6/**: Statistical Analysis of Results
-- **L7/**: Regression and Ensemble Models
+- **L0: Introduction to NumPy and Matplotlib**: A primer on the essential libraries for numerical computation and data visualization in Python.
+- **L1: Data Visualization and Handling**: Learn how to load, inspect, and visualize datasets.
+- **L2: Fundamentals of Classification**: Explore basic classification algorithms and decision boundaries.
+- **L3: Building a Custom Classifier**: Implement your own classifier from scratch.
+- **L4: Unsupervised Learning - Clustering**: Dive into clustering with K-Means.
+- **L5: Data Preprocessing Techniques**: Understand the importance of scaling and dimensionality reduction with PCA.
+- **L6: Statistical Analysis of Results**: Learn how to analyze and interpret the results of your models.
+- **L7: Regression and Ensemble Models**: Explore regression tasks and the power of ensemble methods.
 
 ## Getting Started
 
-### Recommended Method (Automated)
+Follow these instructions to set up your environment and run the labs.
 
-The easiest way to run the entire lab simulation is to use the provided shell script. This will automatically install all dependencies and run each lab in sequence.
+### Prerequisites
 
-1.  **Make the script executable (if needed):**
+- Python 3
+- `pip`
+
+### Installation & Usage
+
+1.  **Clone the repository:**
+
     ```bash
-    chmod +x run_all_labs.sh
+    git clone https://github.com/your-username/neural-network-playground.git
+    cd neural-network-playground
     ```
-2.  **Run the script:**
+
+2.  **Create and activate a virtual environment:**
+
     ```bash
-    ./run_all_labs.sh
+    python3 -m venv venv
+    source venv/bin/activate
     ```
 
-### Manual Method
+3.  **Install dependencies:**
 
-If you prefer to run each lab individually, you can follow these steps:
-
-1.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-2.  **Navigate to a lab directory:**
+4.  **Run a lab:**
+    Navigate to the directory of the lab you want to run and execute the Python script. For example, to run the first lab:
     ```bash
     cd L0
-    ```
-
-3.  **Run the Python script:**
-    ```bash
-    # The script name may vary per lab directory
     python l0_introduction.py
     ```
 
-Each lab's script is designed to be run independently and will often generate plots or other output to illustrate the concepts being taught. The code is heavily commented to guide you through the process.
+Each script is designed to be run from the command line. Most will generate plots or other visual outputs to help illustrate the concepts.
 
-## Technologies Used
+## Core Technologies
 
-- **NumPy**: For numerical operations and data handling.
-- **Matplotlib**: For data visualization.
-- **Scikit-learn**: For machine learning algorithms, data preprocessing, and evaluation tools.
-- **SciPy**: For scientific and technical computing.
+This project relies on the following core Python libraries:
+
+- **NumPy**: For efficient numerical operations.
+- **Matplotlib**: For creating static, animated, and interactive visualizations.
+- **Scikit-learn**: For a wide range of machine learning algorithms and tools.
+- **SciPy**: For scientific computing and technical computing.
+
+Enjoy your journey through the world of neural networks!

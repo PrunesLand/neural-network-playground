@@ -102,7 +102,7 @@ plt.title("Linear Model vs. Ensemble Model on Non-Linear Data")
 plt.xlabel("Feature Value")
 plt.ylabel("Target Value")
 plt.legend()
-plt.savefig("L7/l7_regression_comparison.png")
+plt.savefig("l7_regression_comparison.png")
 plt.show()
 
 print("\n--- Lab L7 Complete ---")

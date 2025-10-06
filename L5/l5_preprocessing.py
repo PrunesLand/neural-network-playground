@@ -33,7 +33,7 @@ fig, axes = plt.subplots(2, 5, figsize=(10, 5),
 for i, ax in enumerate(axes.flat):
     ax.imshow(X[i].reshape(8, 8), cmap='binary', interpolation='nearest')
     ax.set_title(f"Label: {y[i]}")
-plt.savefig("L5/l5_digits_examples.png")
+plt.savefig("l5_digits_examples.png")
 plt.show()
 
 
@@ -72,7 +72,7 @@ plt.title("Digits Dataset Visualized with PCA (2 Components)")
 plt.xlabel("Principal Component 1")
 plt.ylabel("Principal Component 2")
 plt.legend(handles=scatter.legend_elements()[0], labels=[str(i) for i in digits.target_names])
-plt.savefig("L5/l5_pca_visualization.png")
+plt.savefig("l5_pca_visualization.png")
 plt.show()
 
 

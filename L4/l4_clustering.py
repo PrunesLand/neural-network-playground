@@ -32,7 +32,7 @@ plt.scatter(X[:, 0], X[:, 1], s=50, c='gray', edgecolors='k')
 plt.title("Generated Raw Data for Clustering")
 plt.xlabel("Feature 1")
 plt.ylabel("Feature 2")
-plt.savefig("L4/l4_raw_data.png")
+plt.savefig("l4_raw_data.png")
 plt.show()
 
 
@@ -70,7 +70,7 @@ plt.title("k-Means Clustering Results")
 plt.xlabel("Feature 1")
 plt.ylabel("Feature 2")
 plt.legend()
-plt.savefig("L4/l4_kmeans_clusters.png")
+plt.savefig("l4_kmeans_clusters.png")
 plt.show()
 
 

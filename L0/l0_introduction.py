@@ -98,7 +98,7 @@ ax.grid(True) # Add a grid for better readability
 
 # 4. Save the figure to a file
 # This is useful for including plots in reports or presentations.
-plt.savefig("L0/l0_scatter_plot.png")
+plt.savefig("l0_scatter_plot.png")
 print("Plot saved to L0/l0_scatter_plot.png")
 
 # 5. Show the plot

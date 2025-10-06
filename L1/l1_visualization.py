@@ -11,7 +11,7 @@ from scipy.spatial.distance import cdist
 # np.loadtxt is a simple way to load data from a text file.
 # We skip the first row (header) and use ',' as the delimiter.
 print("--- Loading Data ---")
-data = np.loadtxt('L1/l1_data.csv', delimiter=',', skiprows=1)
+data = np.loadtxt('l1_data.csv', delimiter=',', skiprows=1)
 
 # The data is now in a NumPy array.
 # The first two columns are features, and the third is the class label.
@@ -75,7 +75,7 @@ axs[1, 1].text(0.5, 0.5, 'Subplots provide a\nway to organize\nmultiple views of
 
 # Adjust layout to prevent titles and labels from overlapping
 plt.tight_layout(rect=[0, 0, 1, 0.96])
-plt.savefig("L1/l1_subplots.png")
+plt.savefig("l1_subplots.png")
 print("Subplots figure saved to L1/l1_subplots.png")
 plt.show()
 
