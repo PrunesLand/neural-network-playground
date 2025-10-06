@@ -17,20 +17,38 @@ The project is organized into the following directories, each corresponding to a
 
 ## Getting Started
 
-1. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### Recommended Method (Automated)
 
-2. **Navigate to a lab directory:**
-   ```bash
-   cd L0
-   ```
+The easiest way to run the entire lab simulation is to use the provided shell script. This will automatically install all dependencies and run each lab in sequence.
 
-3. **Run the Python script:**
-   ```bash
-   python l0_introduction.py
-   ```
+1.  **Make the script executable (if needed):**
+    ```bash
+    chmod +x run_all_labs.sh
+    ```
+2.  **Run the script:**
+    ```bash
+    ./run_all_labs.sh
+    ```
+
+### Manual Method
+
+If you prefer to run each lab individually, you can follow these steps:
+
+1.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2.  **Navigate to a lab directory:**
+    ```bash
+    cd L0
+    ```
+
+3.  **Run the Python script:**
+    ```bash
+    # The script name may vary per lab directory
+    python l0_introduction.py
+    ```
 
 Each lab's script is designed to be run independently and will often generate plots or other output to illustrate the concepts being taught. The code is heavily commented to guide you through the process.
 
